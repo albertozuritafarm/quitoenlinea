@@ -1,0 +1,19 @@
+{
+	"name": "responsive-tables-js",
+	"description": "JavaScript solution for supporting responsive tables",
+	"main": "responsivetables.js",
+	"ignore": "",
+	"authors": [
+		"Steven Masala"
+	],
+	"keywords" : [ 
+		"responsive",
+		"table",
+		"javascript",
+		"jquery"
+	],
+	"version": "1.0.6",
+	"dependencies": {
+		"jquery": "latest"
+	}
+}

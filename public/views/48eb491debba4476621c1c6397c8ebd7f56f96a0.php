@@ -1,0 +1,1 @@
+<?php echo $error; ?><?php /**PATH C:\wamp64\www\magnussucre\resources\views\emails\error.blade.php ENDPATH**/ ?>

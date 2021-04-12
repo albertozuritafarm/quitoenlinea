@@ -1,0 +1,26 @@
+v1.0.6
+-------------------
+* fix where the selector searched into child tables
+
+v1.0.5
+-------------------
+* rename function update to init
+* remove auto loading on document ready - call window.responsiveTables.init() when desired
+* new properties for init function
+    ** selector: pass to override default selector - "table.reponsive"
+    ** force:    set as true to re-init tables already initialised.
+
+v1.0.4
+-------------------
+* add grunt
+* replace "undefined" with empty string is no header is provided
+* jscs and jshint it
+
+v1.0.3
+-------------------
+* hoist variables to top position
+
+v1.0.2
+-------------------
+* amd / requirejs support
+* src / dist folders

@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/04/2019, 15:32:39
+    Author     : Carlos Oberto
+*/
+    .inputWrapper {
+        height: 80px;
+        width: 100px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        /*Using a background color, but you can use a background image to represent a button*/
+        /*background-color: #DDF;*/
+        /*background-image: url("/images/mas.png");*/
+    }
+    .fileInput {
+        cursor: pointer;
+        height: 100%;
+        /*width:10px;*/
+        position:absolute;
+        top: 0;
+        right: 0;
+        z-index: 99;
+        /*This makes the button huge. If you want a bigger button, increase the font size*/
+        /*font-size:50px;*/
+        /*Opacity settings for all browsers*/
+        opacity: 0;
+        -moz-opacity: 0;
+        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    }
+    .pictureBorder{
+        border-style: solid;
+        border-width: thin;
+        padding: 0;
+        height:150px;
+    }
+    .pictureLabel{
+        border-bottom: solid;
+        border-width: thin;
+        width:150px;
+        height:30px
+    }
+/*    .inside {
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+         These are technically the same, but use both 
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+
+        -ms-word-break: break-all;
+         This is the dangerous one in WebKit, as it breaks things wherever 
+        word-break: break-all;
+         Instead use this non-standard one: 
+        word-break: break-word;
+
+         Adds a hyphen where the word breaks, if supported (No Blink) 
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+        
+    }*/
+    #customerResumeTable >tbody>tr>td{
+  height:20px;
+  padding:0px;
+  border-top: 0px;
+}
+    #saleResumeTable >tbody>tr>td{
+  height:20px;
+  padding:0px;
+  border-top: 0px;
+}
+    #vehicleTableResume >tbody>tr>td{
+  height:20px;
+  padding:0px;
+  border-top: 0px;
+}
+span.own1{
+        background:#F8F8F8;
+        border: 5px solid #DFDFDF;
+        /*color: #717171;*/
+        color: black;
+        font-size: 12px;
+        height: auto;
+        width:310px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        position:absolute;
+        text-align: left;
+        /*text-transform: uppercase;*/
+        top: auto;
+        left:5px;
+        display:none;
+        padding:10px;
+        border-radius: 10px;
+        font-family: 'Roboto',sans-serif,Helvetica Neue,Arial !important;
+
+
+    }
+
+    label.own{
+        margin:0px;
+        /*float:left;*/
+        position:relative;
+        cursor:pointer;
+    }
+
+    label.own:hover span{
+        display:block;
+        z-index:9;
+    }

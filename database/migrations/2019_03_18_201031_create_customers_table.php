@@ -1,0 +1,41 @@
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateCustomersTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('customers', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('document_id')->references('id')->on('documents')->onDelete('cascade');
+            $table->string('document');
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('address');
+            $table->string('city_id')->references('id')->on('cities')->onDelete('cascade');
+            $table->string('phone');
+            $table->string('mobile_phone');
+            $table->string('email');
+            $table->string('status_id')->references('id')->on('documents')->onDelete('cascade');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('customers');
+    }
+}

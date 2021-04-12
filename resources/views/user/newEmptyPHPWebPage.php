@@ -1,0 +1,36 @@
+<table id="TablaSolicitudes" class="table table-responsive table-striped table-no-bordered table-hover MiTabla" style="width:100%;" role="grid" width="100%" cellspacing="0">
+    <thead class="MiTablaCabecera"><tr role="row"><th align="left"><span id="LMarcar" style="cursor:pointer;"><u>MARCAR</u></span></th><th>NO.</th><th>Solicitud</th><th>Ident. Cliente</th>
+            <th>Cliente</th><th>Estado</th><th>Fecha</th><th align="right">Acciones</th></tr></thead><tbody><tr role="row" class="even" align="center" style="cursor:pointer"><td align="center"><input type="checkbox" class="form-check-input position-static" id="CH_54" name="CH_54" style="cursor:pointer" /></td><td align="center">1</td>
+            <td align="center">54</td><td align="center">0910650019 (CÉDULA)</td><td align="left">MIRIAM PATRICIA CAÑARTE PONCE</td>
+            <td align="center">APROBADA</td><td align="center">30/01/2019 16:02:24</td>
+            <td align="center"><div style="white-space:nowrap;"></div></td></tr><tr role="row" class="odd" align="center" style="cursor:pointer"><td align="center"><input type="checkbox" class="form-check-input position-static" id="CH_53" name="CH_53" style="cursor:pointer" /></td><td align="center">2</td>
+            <td align="center">53</td><td align="center">1706256433 (CÉDULA)</td><td align="left">ULISES ESPINOZA</td>
+            <td align="center">APROBADA</td><td align="center">25/01/2019 13:51:29</td>
+            <td align="center"><div style="white-space:nowrap;"></div></td></tr><tr role="row" class="even" align="center" style="cursor:pointer"><td align="center"><input type="checkbox" class="form-check-input position-static" id="CH_52" name="CH_52" style="cursor:pointer" /></td><td align="center">3</td>
+            <td align="center">52</td><td align="center">1700937954 (CÉDULA)</td><td align="left">JOSE PEREZ</td>
+            <td align="center">APROBADA</td><td align="center">21/01/2019 11:07:40</td>
+            <td align="center"><div style="white-space:nowrap;"></div></td></tr><tr role="row" class="odd" align="center" style="cursor:pointer"><td align="center"><input type="checkbox" class="form-check-input position-static" id="CH_51" name="CH_51" style="cursor:pointer" /></td><td align="center">4</td>
+            <td align="center">51</td><td align="center">1700845330 (CÉDULA)</td><td align="left">JUAN JOSE SALAZAR</td>
+            <td align="center">APROBADA</td><td align="center">21/01/2019 08:34:11</td>
+            <td align="center"><div style="white-space:nowrap;"></div></td></tr><tr role="row" class="even" align="center" style="cursor:pointer"><td align="center"><input type="checkbox" class="form-check-input position-static" id="CH_50" name="CH_50" style="cursor:pointer" /></td><td align="center">5</td>
+            <td align="center">50</td><td align="center">1709848079 (CÉDULA)</td><td align="left">JUAN ANDRES ENDARA</td>
+            <td align="center">APROBADA</td><td align="center">16/01/2019 08:19:54</td>
+            <td align="center"><div style="white-space:nowrap;"></div></td></tr><tr role="row" class="odd" align="center" style="cursor:pointer"><td align="center"><input type="checkbox" class="form-check-input position-static" id="CH_49" name="CH_49" style="cursor:pointer" /></td><td align="center">6</td>
+            <td align="center">49</td><td align="center">1756363667 (CÉDULA)</td><td align="left">eugenio meza</td>
+            <td align="center">PENDIENTE</td><td align="center">15/01/2019 18:41:28</td>
+            <td align="center"><div style="white-space:nowrap;"><img id="BAprobar_49" class="ImgControl" title="Aprobar" src="../images/Aprobar.png" />&nbsp<img id="BRechazar_49" class="ImgControl" title="Rechazar" src="../images/Rechazar.png" /></div></td></tr><tr role="row" class="even" align="center" style="cursor:pointer"><td align="center"><input type="checkbox" class="form-check-input position-static" id="CH_48" name="CH_48" style="cursor:pointer" /></td><td align="center">7</td>
+            <td align="center">48</td><td align="center">1711187763 (CÉDULA)</td><td align="left">FABIAN CRUZ</td>
+            <td align="center">PENDIENTE</td><td align="center">11/01/2019 15:43:23</td>
+            <td align="center"><div style="white-space:nowrap;"><img id="BAprobar_48" class="ImgControl" title="Aprobar" src="../images/Aprobar.png" />&nbsp<img id="BRechazar_48" class="ImgControl" title="Rechazar" src="../images/Rechazar.png" /></div></td></tr><tr role="row" class="odd" align="center" style="cursor:pointer"><td align="center"><input type="checkbox" class="form-check-input position-static" id="CH_47" name="CH_47" style="cursor:pointer" /></td><td align="center">8</td>
+            <td align="center">47</td><td align="center">1706256433 (CÉDULA)</td><td align="left">ULISES ESPINOZA</td>
+            <td align="center">PENDIENTE</td><td align="center">03/01/2019 11:45:15</td>
+            <td align="center"><div style="white-space:nowrap;"><img id="BAprobar_47" class="ImgControl" title="Aprobar" src="../images/Aprobar.png" />&nbsp<img id="BRechazar_47" class="ImgControl" title="Rechazar" src="../images/Rechazar.png" /></div></td></tr><tr role="row" class="even" align="center" style="cursor:pointer"><td align="center"><input type="checkbox" class="form-check-input position-static" id="CH_46" name="CH_46" style="cursor:pointer" /></td><td align="center">9</td>
+            <td align="center">46</td><td align="center">1713202065 (CÉDULA)</td><td align="left">JAVIER TOBAR</td>
+            <td align="center">PENDIENTE</td><td align="center">13/12/2018 12:43:24</td>
+            <td align="center"><div style="white-space:nowrap;"><img id="BAprobar_46" class="ImgControl" title="Aprobar" src="../images/Aprobar.png" />&nbsp<img id="BRechazar_46" class="ImgControl" title="Rechazar" src="../images/Rechazar.png" /></div></td></tr><tr role="row" class="odd" align="center" style="cursor:pointer"><td align="center"><input type="checkbox" class="form-check-input position-static" id="CH_45" name="CH_45" style="cursor:pointer" /></td><td align="center">10</td>
+            <td align="center">45</td><td align="center">1711168425 (CÉDULA)</td><td align="left">MAURICIO PEREZ</td>
+            <td align="center">PENDIENTE</td><td align="center">10/12/2018 18:01:48</td>
+            <td align="center"><div style="white-space:nowrap;"><img id="BAprobar_45" class="ImgControl" title="Aprobar" src="../images/Aprobar.png" />&nbsp<img id="BRechazar_45" class="ImgControl" title="Rechazar" src="../images/Rechazar.png" /></div></td></tr></tbody></table><div class="row" style="border-top:solid 1px #CCC; margin:0px 6px;">
+    <div class="col-xs-12 col-sm-6 DIVTablaCantReg">1 A 10 DE 29 REGISTROS</div>
+    <div class="col-xs-12 col-sm-6 DIVTablaPaginacion" id="DIVTablaPaginacion"><button id="pagina_1" class="BotonPaginacion BotonPaginacionActivo" value="1">1</button><button id="pagina_2" class="BotonPaginacion " value="2">2</button><button id="pagina_3" class="BotonPaginacion " value="3">3</button><button id="BotonPaginacionSiguiente" class="BotonPaginacion">&gt;</button></div>
+</div>

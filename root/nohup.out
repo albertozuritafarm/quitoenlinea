@@ -1,0 +1,55 @@
+
+                                         
+  The "--daemon" option does not exist.  
+                                         
+
+
+   Symfony\Component\Process\Exception\ProcessSignaledException  : The process has been signaled with signal "1".
+
+  at /home/magnusmas/www/www/hit/vendor/symfony/process/Process.php:426
+    422|             usleep(1000);
+    423|         }
+    424| 
+    425|         if ($this->processInformation['signaled'] && $this->processInformation['termsig'] !== $this->latestSignal) {
+  > 426|             throw new ProcessSignaledException($this);
+    427|         }
+    428| 
+    429|         return $this->exitcode;
+    430|     }
+
+  Exception trace:
+
+  1   Symfony\Component\Process\Process::wait()
+      /home/magnusmas/www/www/hit/vendor/symfony/process/Process.php:235
+
+  2   Symfony\Component\Process\Process::run(Object(Closure))
+      /home/magnusmas/www/www/hit/vendor/laravel/framework/src/Illuminate/Queue/Listener.php:175
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Process\Exception\ProcessSignaledException  : The process has been signaled with signal "1".
+
+  at /home/magnusmas/www/www/hit/vendor/symfony/process/Process.php:426
+    422|             usleep(1000);
+    423|         }
+    424| 
+    425|         if ($this->processInformation['signaled'] && $this->processInformation['termsig'] !== $this->latestSignal) {
+  > 426|             throw new ProcessSignaledException($this);
+    427|         }
+    428| 
+    429|         return $this->exitcode;
+    430|     }
+
+  Exception trace:
+
+  1   Symfony\Component\Process\Process::wait()
+      /home/magnusmas/www/www/hit/vendor/symfony/process/Process.php:235
+
+  2   Symfony\Component\Process\Process::run(Object(Closure))
+      /home/magnusmas/www/www/hit/vendor/laravel/framework/src/Illuminate/Queue/Listener.php:175
+
+  Please use the argument -v to see more details.
+[2019-09-11 10:20:17][7211] Processing: App\Jobs\EmailJobs
+[2019-09-11 10:20:24][7211] Processed:  App\Jobs\EmailJobs
+[2019-09-11 11:55:18][7213] Processing: App\Jobs\EmailJobs
+[2019-09-11 11:55:25][7213] Processed:  App\Jobs\EmailJobs
